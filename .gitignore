@@ -1,0 +1,38 @@
+# Ignorer les fichiers système
+.DS_Store
+Thumbs.db
+
+# Environnement Python
+__pycache__/
+*.py[cod]
+*.ipynb_checkpoints
+
+# Environnement virtuel
+venv/
+.env/
+*.env
+
+# Fichiers de logs et historiques
+*.log
+*.sqlite3
+
+# Dossiers de sortie de modèle
+checkpoints/
+models/
+*.h5
+*.pb
+saved_model/
+
+# Dataset local
+data/
+dataset/
+datasets/
+*.zip
+*.tar.gz
+
+# Colab / Jupyter
+.ipynb_checkpoints/
+
+# Cache TensorFlow/Keras
+*.tfrecord
+*.tensorboard-info/
