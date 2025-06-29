@@ -27,6 +27,7 @@ saved_model/
 data/
 dataset/
 datasets/
+dataset-processed/
 *.zip
 *.tar.gz
 
@@ -36,3 +37,4 @@ datasets/
 # Cache TensorFlow/Keras
 *.tfrecord
 *.tensorboard-info/
+
