@@ -28,6 +28,7 @@ data/
 dataset/
 datasets/
 dataset-processed/
+colored-dataset/
 *.zip
 *.tar.gz
 
